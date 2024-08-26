@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css   -->
+    <link rel="stylesheet" href="min.css">
+    <!-- javascript link   -->
+    <script src="index.js" defer></script>
+    <!-- boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/1631c94342.js" crossorigin="anonymous"></script>
+    <title>SnakeWaterGun</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <h2>SnakeWaterGun</h2>
+                <p>by sortechintu230</p>
+            </div>
+            <div class="alert alert-success alertbox" role="alert">
+                Welcome Username
+            </div>
+            <div class="profile">
+                <img src="images/user.png" alt="" id="usrimage">
+                <p id="usr">Username</p>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="nameinpt">
+                <h1>Enter your Username...</h1>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                        aria-describedby="basic-addon1" id="inptbox">
+                    <button class="inpBtn btn btn-primary rounded-circle" id="userBtn"><i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="start">
+                <h1>START THE GAME</h1>
+                <a href="#game"><button class="btnn btn btn-success" id="startBtn">START</button></a>
+            </div>
+        </div>
+    </main>
+    <section id="game">
+        <nav class="">
+            <div class="profile">
+                <img src="images/ai.png" alt="" id="usrimage">
+                <p id="usr">Computer</p>
+            </div>
+
+            <div class="logo">
+                <h2>SnakeWaterGun</h2>
+                <p>by sortechintu230</p>
+            </div>
+
+            <div class="profile">
+                <img src="images/user.png" alt="" id="gameusr">
+                <p id="usrname">Username</p>
+            </div>
+        </nav>
+        <div class="choice">
+            <h2>Computer Choice</h2>
+            <h2>Your Choice</h2>
+        </div>
+        <div class="resultimg">
+            <div class="swgcomp">
+                <img src="images/snake.png" alt="" id="compresult">
+            </div>
+            <div class="vs">
+                <img src="images/vs.png" alt="" id="">
+            </div>
+            <div class="swgusr">
+                <img src="images/snake.png" alt="" id="usrresult">
+            </div>
+        </div>
+        <div class="result">
+            <h4 id="result1">Both are snakes. It's a tie!</h4>
+            <h2 id="result2">Computer Won!</h2>
+            <h4>Choose one of them:</h4>
+        </div>
+        <div class="choices">
+            <button id="snake">
+                <img src="images/snake.png" alt="" class="">
+            </button>
+            <button id="water">
+                <img src="images/water.png" alt="" class="">
+            </button>
+            <button id="gun">
+                <img src="images/water-gun.png" alt="" class="">
+            </button>
+        </div>
+        <div>
+            <h1>Score: <span class="score">00</span></h1>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="text">
+            <h2>Follow me here</h2>
+        </div>
+        <div class="icons">
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-reddit"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- boostrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
